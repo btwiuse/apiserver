@@ -19,8 +19,8 @@ package etcd3
 import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/api/mvccpb"
 	"testing"
 )
 

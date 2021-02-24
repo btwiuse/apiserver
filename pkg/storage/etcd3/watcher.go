@@ -33,7 +33,7 @@ import (
 	"k8s.io/apiserver/pkg/storage/etcd3/metrics"
 	"k8s.io/apiserver/pkg/storage/value"
 
-	"go.etcd.io/etcd/clientv3"
+	"github.com/btwiuse/etcd/v3/client/v3"
 	"k8s.io/klog/v2"
 )
 
