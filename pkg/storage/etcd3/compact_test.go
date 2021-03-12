@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"go.etcd.io/etcd/clientv3"
-	etcdrpc "go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/integration"
+	"github.com/btwiuse/etcd/v3/client/v3"
+	etcdrpc "github.com/btwiuse/etcd/v3/api/v3rpc/rpctypes"
+	"github.com/btwiuse/etcd/v3/tests/integration"
 )
 
 func TestCompact(t *testing.T) {

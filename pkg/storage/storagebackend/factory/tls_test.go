@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/transport"
+	"github.com/btwiuse/etcd/v3/tests/integration"
+	"github.com/btwiuse/etcd/v3/pkg/transport"
 
 	apitesting "k8s.io/apimachinery/pkg/api/apitesting"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

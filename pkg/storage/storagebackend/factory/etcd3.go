@@ -27,8 +27,8 @@ import (
 	"time"
 
 	grpcprom "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/pkg/transport"
+	"github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/pkg/transport"
 	"google.golang.org/grpc"
 
 	"k8s.io/apimachinery/pkg/runtime"

@@ -18,8 +18,8 @@ package etcd3
 
 import (
 	"fmt"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/btwiuse/etcd/v3/client/v3"
+	"github.com/btwiuse/etcd/v3/api/mvccpb"
 )
 
 type event struct {
